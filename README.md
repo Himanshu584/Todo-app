@@ -1,4 +1,7 @@
-# Getting Started with Create React App
+# This app is deployed on URL:
+https://galvic-todo.web.app
+
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
