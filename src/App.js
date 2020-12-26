@@ -31,8 +31,10 @@ function App() {
 
   return (
     <div className="App">
-      <h1>GALVIC-TODO</h1>
-      <form>
+      <div className='app__body'>
+      <h1 className='App__header'>GALVIC-TODO</h1>
+      
+      <form className='App__form'>
         <FormControl>
           <InputLabel>Write Todo..</InputLabel>
           <Input text='Write Todo..'value={input} onChange= {e => setInput(e.target.value)} />          
@@ -45,7 +47,7 @@ function App() {
         {todos.map(todo => (
           <Todo todo={todo}/>
         ))}
-      </ul>
+      </ul></div>
     </div>
   );
 }
