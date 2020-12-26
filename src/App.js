@@ -17,7 +17,7 @@ function App() {
     })
   },[]);
 
-
+  
   const addTodo = (e) => {
     e.preventDefault(); // Prevents page to restore default after addition of todo.
 
